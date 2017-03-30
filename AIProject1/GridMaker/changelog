@@ -1,0 +1,22 @@
+1/28/17:
+	- Added Grid and Node classes
+	- Removed BinaryHeap file, python has its own priority queue implementation
+	- Started work on GridTerrainGenerator.initHardToTraverseTerrain
+		- Remember to implement logic to check if randomly generated point is a dupe
+	- Figure out why using a function to set a class attribute is different from accessing it directly
+	- Completed generate_blocked_cells
+
+1/29/17:
+	- Completed generate_start_and_goal
+	- Started work on generate highways
+		- Need to make sure resets for highway generations are present, e.g that attempts to generate a path are recorded and once a threshold is reached, that it resets
+	- Started work on file writer for grid
+	- Need to test everything
+
+1/30/17:
+	- Debugged highways
+		- Stable and displays highways properly for the moment, will work more on it later
+		- Have to check that it highway is greater or equal to 100
+
+2/1/17:
+	- Completed stable version of grid generator
